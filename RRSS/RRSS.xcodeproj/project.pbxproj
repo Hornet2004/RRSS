@@ -15,7 +15,7 @@
 		22FF5360252AD3D300E97DB4 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF535F252AD3D300E97DB4 /* TasksViewController.swift */; };
 		22FF5368252AD43100E97DB4 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF5367252AD43100E97DB4 /* TaskTableViewController.swift */; };
 		22FF5370252AD79D00E97DB4 /* LatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF536F252AD79D00E97DB4 /* LatencyViewController.swift */; };
-		22FF5381252ADF9500E97DB4 /* Loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FF5380252ADF9500E97DB4 /* Loading@2x.png */; };
+		22FF5394252AF6B400E97DB4 /* Loading@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22FF5393252AF6B400E97DB4 /* Loading@2x.jpg */; };
 		984B46852528E15D00440D26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B46842528E15D00440D26 /* AppDelegate.swift */; };
 		984B46872528E15D00440D26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B46862528E15D00440D26 /* SceneDelegate.swift */; };
 		984B468C2528E15D00440D26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984B468A2528E15D00440D26 /* Main.storyboard */; };
@@ -62,7 +62,7 @@
 		22FF535F252AD3D300E97DB4 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		22FF5367252AD43100E97DB4 /* TaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
 		22FF536F252AD79D00E97DB4 /* LatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatencyViewController.swift; sourceTree = "<group>"; };
-		22FF5380252ADF9500E97DB4 /* Loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Loading@2x.png"; sourceTree = "<group>"; };
+		22FF5393252AF6B400E97DB4 /* Loading@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Loading@2x.jpg"; sourceTree = "<group>"; };
 		984B46812528E15D00440D26 /* RRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		984B46842528E15D00440D26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		984B46862528E15D00440D26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 				984B46842528E15D00440D26 /* AppDelegate.swift */,
 				984B46862528E15D00440D26 /* SceneDelegate.swift */,
 				984B468A2528E15D00440D26 /* Main.storyboard */,
+				22FF5393252AF6B400E97DB4 /* Loading@2x.jpg */,
 				984B46902528E15D00440D26 /* Assets.xcassets */,
-				22FF5380252ADF9500E97DB4 /* Loading@2x.png */,
 				984B46922528E15D00440D26 /* LaunchScreen.storyboard */,
 				22FF5320252AB89E00E97DB4 /* HorizonsData.csv */,
 				984B46952528E15D00440D26 /* Info.plist */,
@@ -329,9 +329,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FF5321252AB89E00E97DB4 /* HorizonsData.csv in Resources */,
-				22FF5381252ADF9500E97DB4 /* Loading@2x.png in Resources */,
 				984B46942528E15D00440D26 /* LaunchScreen.storyboard in Resources */,
 				984B46912528E15D00440D26 /* Assets.xcassets in Resources */,
+				22FF5394252AF6B400E97DB4 /* Loading@2x.jpg in Resources */,
 				984B468C2528E15D00440D26 /* Main.storyboard in Resources */,
 				22FF5329252AB8AF00E97DB4 /* Cochlea_wave_animated.gif in Resources */,
 			);
