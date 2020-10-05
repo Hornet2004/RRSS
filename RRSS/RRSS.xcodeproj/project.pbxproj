@@ -114,6 +114,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22FF538A252AE9D300E97DB4 /* Task Views */ = {
+			isa = PBXGroup;
+			children = (
+				22FF535F252AD3D300E97DB4 /* TasksViewController.swift */,
+				22FF5367252AD43100E97DB4 /* TaskTableViewController.swift */,
+				22FF536F252AD79D00E97DB4 /* LatencyViewController.swift */,
+			);
+			path = "Task Views";
+			sourceTree = "<group>";
+		};
+		22FF538B252AE9E800E97DB4 /* Message Views */ = {
+			isa = PBXGroup;
+			children = (
+				22FF5330252ABF7E00E97DB4 /* MessageCenterViewController.swift */,
+				985C7AAA25296AAD00193B33 /* MessageTableViewController.swift */,
+				98879154252AABA600D0A71E /* MessageDetailViewController.swift */,
+				22FF533B252AC9B300E97DB4 /* CMessageViewController.swift */,
+				22FF5340252AC9C300E97DB4 /* HammerViewController.swift */,
+			);
+			path = "Message Views";
+			sourceTree = "<group>";
+		};
+		22FF538C252AEA0B00E97DB4 /* Bandwidth Views */ = {
+			isa = PBXGroup;
+			children = (
+				985C7A8525294C6000193B33 /* BandwidthViewController.swift */,
+				9887913C252A814A00D0A71E /* BandwidthTextView.swift */,
+			);
+			path = "Bandwidth Views";
+			sourceTree = "<group>";
+		};
 		984B46782528E15D00440D26 = {
 			isa = PBXGroup;
 			children = (
@@ -174,16 +205,9 @@
 			isa = PBXGroup;
 			children = (
 				985C7A942529535B00193B33 /* Home Tab */,
-				22FF535F252AD3D300E97DB4 /* TasksViewController.swift */,
-				22FF5367252AD43100E97DB4 /* TaskTableViewController.swift */,
-				22FF536F252AD79D00E97DB4 /* LatencyViewController.swift */,
-				22FF5330252ABF7E00E97DB4 /* MessageCenterViewController.swift */,
-				985C7AAA25296AAD00193B33 /* MessageTableViewController.swift */,
-				98879154252AABA600D0A71E /* MessageDetailViewController.swift */,
-				22FF533B252AC9B300E97DB4 /* CMessageViewController.swift */,
-				22FF5340252AC9C300E97DB4 /* HammerViewController.swift */,
-				985C7A8525294C6000193B33 /* BandwidthViewController.swift */,
-				9887913C252A814A00D0A71E /* BandwidthTextView.swift */,
+				22FF538A252AE9D300E97DB4 /* Task Views */,
+				22FF538B252AE9E800E97DB4 /* Message Views */,
+				22FF538C252AEA0B00E97DB4 /* Bandwidth Views */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
